@@ -17,5 +17,5 @@ void main(){
   //global variable access
   print('college name :${Mydata.collegename}');
 
-  
+
 }
