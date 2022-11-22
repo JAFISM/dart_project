@@ -25,30 +25,30 @@ class Phonemod{
 void main(){
   Phonemod iphone10=new Phonemod();
   print("Mobile details");
-  print("^^^^^^^^^^^^^^^^^");
+  print("---------------");
 
   print('iphone Name: ${iphone10.iphonename1}');
   print('Model number :${iphone10.modelnumber1}');
   print('price :${iphone10.price1}');
-  print("*********");
+  print("");
 
   Phonemod iphone11=new Phonemod();
   print('iphone Name: ${iphone11.iphonename2}');
   print('Model number :${iphone11.modelnumber2}');
   print('price :${iphone11.price2}');
-  print("*********");
+  print("");
 
   Phonemod iphone12=new Phonemod();
   print('iphone Name: ${iphone12.iphonename3}');
   print('Model number :${iphone12.modelnumber3}');
   print('price :${iphone12.price3}');
-  print('********');
+  print("");
 
   Phonemod iphone13=new Phonemod();
   print('iphone Name: ${iphone13.iphonename4}');
   print('Model number :${iphone13.modelnumber4}');
   print('price :${iphone13.price4}');
-  print('*********');
+  print('');
 
   Phonemod iphone14=new Phonemod();
   print('iphone Name: ${iphone14.iphonename5}');
