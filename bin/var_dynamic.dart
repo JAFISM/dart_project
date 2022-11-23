@@ -1,5 +1,5 @@
 void main(){
-  var a=10;//var keyword (store same data tpe)
+  var a=10;//var keyword (store same data tpe)(same data type)
   print(a);
   a=20;
   print(a);

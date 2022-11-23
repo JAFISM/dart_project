@@ -27,4 +27,12 @@ void main(){
   obj.sub();
   obj.mul();
   obj.div();
+  print('');
+  //alternative
+  obj
+  ..sum()
+  ..sub()
+  ..mul()
+  ..div();
+
 }
