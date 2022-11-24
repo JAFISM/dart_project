@@ -13,10 +13,9 @@ void main(){
   var passmark=45;
   var out=totalmark>=passmark?"you are eligible for higher studies":"Better luck next time";
   print(" ");
-  print(name);
-  print(rollnumber);
-  print(markperc);
+  print("NAME=$name");
+  print("ROLL NUMBER=$rollnumber");
+  print("MARK PERCENTAGE=$markperc");
   print(out);
-
 
 }
