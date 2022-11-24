@@ -2,8 +2,8 @@ void main(){
   var a=10;
   var b=50;
   var c=30;
-  var out= a>b?(a>c?"$a is large":"$c is large")
-              :(b>c? "$b is large": "$c is large");
+ var out= a>b?(a>c?"$a is large":"$c is large")
+             :(b>c? "$b is large": "$c is large");
   print(out);
 
   String ? name;
