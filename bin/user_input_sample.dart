@@ -17,5 +17,4 @@ void main(){
   print("ROLL NUMBER=$rollnumber");
   print("MARK PERCENTAGE=$markperc");
   print(out);
-
 }
