@@ -1,6 +1,6 @@
 ///local variable-inside class inside function/constructor/block of statement
 ///                locally declared variables
-///                accessible with in the block or function where define them
+///                accessible within the block or function where define them
 ///function => return_ type  function_name
 ///user defined function without parameter/default function///
 void show(){

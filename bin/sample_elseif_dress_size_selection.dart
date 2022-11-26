@@ -10,7 +10,7 @@ void main(){
     print("you are selected Medium size");
   }
   else if(dresssize==36) {
-    print("you are selected L size");
+    print("you are selected Large size");
   }
   else if(dresssize==38) {
     print("you are selected XL size");
