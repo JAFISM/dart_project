@@ -16,7 +16,7 @@ void main(){
   else if((num3>num1)&&(num3>num2)&&(num3>num4)){
     print("$num3 is largest");
   }
-  else{
+  else {
     print("$num4 is largest");
   }
 }

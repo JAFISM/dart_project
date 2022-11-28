@@ -16,6 +16,4 @@ void main(){
   print('email :${stu1.email}');
   //global variable access
   print('college name :${Mydata.collegename}');
-
-
 }
