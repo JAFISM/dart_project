@@ -1,7 +1,7 @@
 void main(){
   function1();
   function2(10, 30);
-  function3(2021,name: 'jafis',cgpa: 3.9);
+  function3(2021,name: 'Jafis M',cgpa: 3.9);
   function4('flutter', rate: 25000);
   function5('testing', rate: 49000);
   function6(31,23,32);
