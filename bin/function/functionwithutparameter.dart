@@ -6,18 +6,24 @@ void main(){
   function5('testing', rate: 49000);
   function6(31,23,32);
   show();
-
+  function3(2022);
+  function4('python', rate:45000);
+  function5("testing", rate: 30000);
+  function6(6);
+  function6(3,5);
+  show();
+  display();
 }
-///default function/no argument function -function without parameter or argument
+///default function/no argument function->function without parameter or argument
 void function1(){
   print('default function');
 }
-///parameterized function -function with parameter with argument
+///parameterized function->function with parameter with argument
 void function2(int a,int b){
   print('sum=${a+b}');
 }
 ///parametrized function
-///1.optional parmetrized function
+///1.optional parametrized function
 ///2.optional name parametrized function
 ///3.optional parametrized function with default value
 
@@ -43,3 +49,4 @@ void function6(int a,[int? b,int?c]){
 }
 ///lambda or arrow function
 void show()=>print('hello');///accepts single statement only
+void display()=>print('hello flutter');
