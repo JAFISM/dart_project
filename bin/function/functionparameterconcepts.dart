@@ -38,7 +38,7 @@ void function4(String course,{required int rate,double? hrs}){
   print('hours=$hrs');
 }
 ///3.optional parametrized function with default value
-void function5(String course,{required int rate,double hrs=2.5}){//{optional parameter}-->placed end
+void function5(String course,{required int rate,double hrs=2.5}){//{optional parameter}
   print('course=$course');
   print('rate=$course');
   print('hours=$hrs');
