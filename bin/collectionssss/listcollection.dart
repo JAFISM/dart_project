@@ -1,6 +1,6 @@
 void main(){
   ///list.empty()
-  var list1=List.empty(growable:true);//false>>non growable list
+  var list1=List.empty(growable:false);//false>>non growable list
   var list2=[1,2,3];
   //list1=[1,2];
   list1.addAll(list2);
@@ -27,7 +27,7 @@ void main(){
   print(list8);
   ///list.of===list.from(similar)
   ///List.of
-  var List9=List.of(list8);
+  var list9=List.of(list8);
   print(list3);
   ///List.unmodifiable
   var list10=List.unmodifiable(list2);
