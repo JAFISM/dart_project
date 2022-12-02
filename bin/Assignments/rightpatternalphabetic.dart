@@ -1,15 +1,14 @@
 import 'dart:io';
 
 void main() {
-  int alphabet = 65;
+  var list=["A","B","C","D","E"];
   for (int i = 0; i <= 4; i++) {
     for (int j = 0; j <= i; j++) {
-      stdout.write('${String.fromCharCode(alphabet + j)} ');
+      stdout.write(list[j]);
     }
     stdout.writeln();
   }
 }
-
 
 
 
