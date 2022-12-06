@@ -27,7 +27,7 @@ void main(){
   flutter.ldetails("csez", 89214356776);
   print("enter course");
   String course=stdin.readLineSync()!;
-  flutter.fdetails("Flutter",25000,1.5);
- // var testing=Testing();
+  flutter.fdetails("Flutter", 25000, 1.5);
+ //var testing=Testing();
  // testing.fdetails("Testing", 30000);
 }
