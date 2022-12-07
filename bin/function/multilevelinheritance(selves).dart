@@ -10,8 +10,7 @@ class Selves{
    print("phone number=$contactnum");
    print("");
  }
-}
-class Education extends Selves{
+}class Education extends Selves{
   void educationaldetails(){
     print("Educational Details");
     print("SSLC");
@@ -19,15 +18,13 @@ class Education extends Selves{
     print("Btech EEE");
     print("");
   }
-}
-class Jobs extends Education{
+}class Jobs extends Education{
   void jobdetails(){
     print("Job details");
     print("Android Developer");
     print("Flutter Developer");
   }
-}
-void main(){
+}void main(){
   var obj=Jobs();
   obj.personaldetails();
   obj.educationaldetails();

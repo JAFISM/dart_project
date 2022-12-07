@@ -7,13 +7,13 @@ class Abc{
    // print('this is a parametrized constructor');
  // }
   Abc.one(){
-    print('this is a named constructor');
+    print('This is a named constructor');
   }
   Abc.two(int a,int b){
-    print('this is a another named constructor with parameter');
+    print('This is a another named constructor with parameter');
   }
   two(){
-    print('this is a default function');
+    print('This is a default function');
   }
 }
 void main(){
