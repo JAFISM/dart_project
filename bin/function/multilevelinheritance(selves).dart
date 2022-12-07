@@ -21,7 +21,7 @@ class Education extends Selves{
   }
 }
 class Jobs extends Education{
-  void jobsdetails(){
+  void jobdetails(){
     print("Job details");
     print("Android Developer");
     print("Flutter Developer");
@@ -31,5 +31,5 @@ void main(){
   var obj=Jobs();
   obj.personaldetails();
   obj.educationaldetails();
-  obj.jobsdetails();
+  obj.jobdetails();
 }

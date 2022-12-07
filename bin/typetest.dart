@@ -3,5 +3,4 @@ void main(){
   int age=22;
   print(age is! int);
   print(age is int);
-
 }

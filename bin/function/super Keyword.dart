@@ -10,8 +10,8 @@ class Course extends Institute{
   int duration=4;
   double timing=1.5;
   void show(){
-    print('Institute       :${super.name}');
-    //super display();
+    //print('Institute       :${super.name}');
+    super.display("LUMINAR TECHNOLAB");
   }
 }
 void main(){
