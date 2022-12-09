@@ -8,6 +8,6 @@ class childA extends A {
     print("child class constructor");
   }
 }
- void main(){
-    childA obj=childA();
+void main(){
+  childA obj=childA();
 }
