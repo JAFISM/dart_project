@@ -6,14 +6,13 @@ class MyException implements Exception {
   MyException(this.msg) {
     print(msg);
     @override
-    String toString() {
-      return "Exception caught $msg";
-    }
+   toString(){
+     return "Exception caught $msg";
+   }
   }
 }
-
-class validation {
-  void checkEmailid(String email) {
+class Validation {
+  void checkEmailId(String email) {
     if (email.contains("@") && email.length > 8) {
       print("password success");
       throw MyException("password is correct");
@@ -24,11 +23,11 @@ class validation {
 }
 
 void main() {
-  var obj = validation();
+  var obj = Validation();
   try {
-    print("enter your email ");
+    print("enter your email");
     var email = stdin.readLineSync()!;
-    obj.checkEmailid(email);
+    obj.checkEmailId(email);
   } catch (obj) {
     print(obj.toString());
   }

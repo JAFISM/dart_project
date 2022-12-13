@@ -4,7 +4,7 @@ class A{
   }
 }
 class childA extends A {
-  childA() : super("abc")  {
+  childA() : super("ABC")  {
     print("child class constructor");
   }
 }

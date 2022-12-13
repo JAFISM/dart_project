@@ -5,7 +5,7 @@ class A{
  int get getdata1{
    return age;
  }
-  set setdata1(int age){
+ set setdata1(int age){
    this.age=age;
   }
   double get getdata2{

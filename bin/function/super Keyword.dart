@@ -16,7 +16,7 @@ class Course extends Institute{
 }
 void main(){
   Course obj=Course();
-  var obj1=new Course();
+  var obj1= Course();
   print("course details");
   print("course name     :${obj.name}");
   print("course duration :${obj.duration}");

@@ -11,7 +11,7 @@ class class1 extends Myclass{
   @override
   void display() {
     // TODO: implement display
-    print("my friend name is ${name="yedhu"}");
+    print("my friend name is ${name="yedhu"} and he is ${age=23} yrs old");
   }
 }
 void main(){

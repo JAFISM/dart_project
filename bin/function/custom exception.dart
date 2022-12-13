@@ -21,7 +21,7 @@ class Myclass{
 void main(){
   var obj=Myclass();
   try {
-    obj.checkage(3);
+    obj.checkage(18);
   }catch(obj){
     print(obj);
   }

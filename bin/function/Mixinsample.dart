@@ -1,7 +1,7 @@
 ///mixin 1
 mixin A{
-  String name="jafis";
-  int age=22;
+  String name="Dart";
+  int year=2022;
   void show(){}
   void display();
 }
@@ -10,10 +10,12 @@ mixin B{
   void add();
 }
 ///class with inheritance using mixin
-class C with A,B {
+class C with A ,B {
   @override
   void display() {
     // TODO: implement display
+    print("Mixin A");
+    print("$name");
   }
 
   @override

@@ -1,5 +1,5 @@
 void main() {
-  Map map = {};
+  Map map1 = {};
   var map2 = Map();
 
   ///map creation using map constructor
