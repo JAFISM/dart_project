@@ -28,6 +28,7 @@ ope1(10,89);
 ope=mul;//function changed to multiplication
 ope(5,7);
 ope(8,9);
-///ope=avg; this is not supported since avg function has 3 params
-
+///ope=avg; this is not supported since avg function has 3 param
+  ope=sub;
+  ope(3,5);
 }

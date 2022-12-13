@@ -12,5 +12,6 @@ class Abc {
 
 void main() {
   Abc obj = Abc();
-
+  obj.hai();
+  obj.call("jafis", 25);
 }

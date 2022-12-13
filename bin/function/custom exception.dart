@@ -1,13 +1,12 @@
 class MyException implements Exception{
   String msg;
-  MyException(this.msg){
-    print(msg);
+  MyException(this.msg);
+    //print(msg);
     @override
     String toString(){
       return "Exception caught $msg";
     }
   }
-}
 class Myclass{
   void checkage(int age){
     if(age<18){

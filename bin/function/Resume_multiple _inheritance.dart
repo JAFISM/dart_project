@@ -5,7 +5,6 @@ class Person {
     print("Phone=$phone");
   }
 }
-
 class Education {
   void educationalDetails(String course, String university, double cgpa) {
     print("course=$course");
@@ -13,7 +12,6 @@ class Education {
     print("CGPA=$cgpa");
   }
 }
-
 class Skills implements Person, Education {
   @override
   void educationalDetails(String course, String university, double cgpa) {
@@ -24,8 +22,6 @@ class Skills implements Person, Education {
     print("CGPA=$cgpa");
     print("");
   }
-
-
   @override
   void personalDetails(String name, String address, int phone) {
     // TODO: implement personalDetails
@@ -42,9 +38,7 @@ class Skills implements Person, Education {
     print("Projects=$projects");
     print("");
   }
-
 }
-
 void main() {
   Skills person = Skills();
   print("----My Resume----");
