@@ -3,11 +3,11 @@ class A{
     print("parent class constructor $a");
   }
 }
-class childA extends A {
-  childA() : super("ABC")  {
+class ChildA extends A {
+  ChildA() : super("ABC")  {
     print("child class constructor");
   }
 }
 void main(){
-  childA obj=childA();
+  ChildA obj=ChildA();
 }

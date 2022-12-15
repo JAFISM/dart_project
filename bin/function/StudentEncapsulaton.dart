@@ -1,3 +1,12 @@
+class MyException implements Exception{
+  String message;
+  MyException(this.message);
+  @override
+  String toString() {
+    // TODO: implement toString
+    return "Exception caught :$message";
+  }
+}
 class Student {
   late String name;
   late int age;
@@ -14,7 +23,7 @@ class Student {
     if (cgpa <=10.0) {
       percentage = (cgpa * 10) - 3.75;
     } else {
-      throw Exception("CGPA must be <=10");
+      throw Exception("CGPA must be less than or equal to 10");
     }
   }
 }

@@ -11,7 +11,7 @@ void main() {
   try {
     st1.cgpaToPercentage = double.parse(stdin.readLineSync()!);
     print("Percentage=${st1.cgpaToPercentage}%");
-  } on Exception {
-    print("CGPA must be less than or equal to 10");
+  }catch(e)  {
+    print(e.toString());
   }
 }

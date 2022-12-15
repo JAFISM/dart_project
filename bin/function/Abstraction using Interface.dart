@@ -9,16 +9,16 @@ class Interface1{
   void display(){
     print("display function of class interface ");
   }
- // void helo();
+ //void helo();
 }
 class childcls implements Interface1 {
   @override
-  int a = 40;
+   int a = 40;
 
-  @override
-  int b = 50;
+   @override
+   int b = 50;
 
-  @override
+   @override
   void display() {
     // TODO: implement display
     print("sum=${a + b}");
